@@ -9,8 +9,8 @@
     <meta charset="utf-8">
     <title>drulang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dru Lang, Dru Christian Lang, Programmer, Code, Coder, Freelance, Freelance Programmer, Programming">
-    <meta name="author" content="Dru Lang">
+    <meta name="description" content="Dru Lang, Dru Christian Lang, Programmer, Freelance, Code, Coder, Freelance, Freelance Programmer, Programming">
+    <meta name="author" content="Dru Christian Lang">
 
     <!-- Le styles -->
     <link href="'.$GLOBALS['docroot'].'/css/bootstrap.css" rel="stylesheet">
@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
         </button>
 
-        <a class="brand" href="'.$GLOBALS['docroot'].'">dru</a>
+        <a class="brand" href="'.$GLOBALS['docroot'].'" style="color:#B3EE3A">dru</a>
 
         <div class="nav-collapse collapse">
             <ul class="nav">
