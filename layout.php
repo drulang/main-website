@@ -43,6 +43,9 @@
                 <li class="dropdown">
                     <a href="'.$GLOBALS['docroot'].'/drulang_resume_2013.pdf">Resume</a>
                 </li>
+                <li>
+                    <a href="https://github.com/drulang">Github</a>
+                </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="'.$GLOBALS['docroot'].'/freelance.php">Freelance<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -50,12 +53,8 @@
                         <li><a href="/freelance.php?tbl=programming">Programming</a></li>
                         <li><a href="/freelance.php?tbl=db">Database Design</a></li>
                         <li><a href="/freelance.php?tbl=automation">Automation</a></li>
-                        <li><a href="/freelance.php?tbl=architecture">Architetures</a></li>
                         <li><a href="/freelance.php?tbl=quote">Quote</a></li>
                     </ul>
-                </li>
-                <li>
-                    <a href="#">Products</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>

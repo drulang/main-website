@@ -56,12 +56,6 @@ function getNav()
     }
     else { $frm.='<li><a href="?tbl=automation">Automation</a></li>'; }
     
-    if($_GET['tbl'] == "architecture")
-    {
-        $frm .= '<li class="active"><a href="?tbl=architecture">Architecture</a></li>';
-    }
-    else { $frm .= '<li><a href="?tbl=architecture">Architecture</a></li>'; }
-    
     if($_GET['tbl'] == "quote")
     {
         $frm .= '<li class="active"><a href="?tbl=quote">Request Quote</a></li>';
@@ -197,11 +191,6 @@ function getFrm()
             <hr class="featurette-divider">';
         return $frm;
     }
-    elseif($_GET['tbl'] == "architecture")
-    {
-        $frm = 'arch';
-        return $frm;
-    }
     elseif($_GET['tbl'] == "quote")
     {
         $frm = '<form method="POST">
@@ -242,7 +231,6 @@ function getFrm()
                             <option>Programming</option>
                             <option>Database</option>
                             <option>Automation</option>
-                            <option>Architecture</option>
                             <option>Other</option>
                         </select>
                     </div>
